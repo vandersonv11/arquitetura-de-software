@@ -16,7 +16,10 @@ public class Ideal extends Elementos{
     private Elementos elementos = new Elementos();
     //implementar
     private String nomeElementoIdeal = "";
+<<<<<<< HEAD
     private int valorElementoIdeal = 0;
+=======
+>>>>>>> origin/main
 
     /**
      * @return the elementos
