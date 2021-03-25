@@ -16,8 +16,6 @@ public class Ideal extends Elementos{
     private Elementos elementos = new Elementos();
     //implementar
     private String nomeElementoIdeal = "";
-    private int valorElementoIdeal = 0;
-
     /**
      * @return the elementos
      */
