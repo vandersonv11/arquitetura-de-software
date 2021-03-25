@@ -13,6 +13,37 @@ import solo.Elementos;
  */
 public class Ideal extends Elementos{
 
-    Elementos elementos = new Elementos();
+    private Elementos elementos = new Elementos();
     //implementar
+    private String nomeElementoIdeal = "";
+
+    /**
+     * @return the elementos
+     */
+    public Elementos getElementos() {
+        return elementos;
+    }
+
+    /**
+     * @param elementos the elementos to set
+     */
+    public void setElementos(Elementos elementos) {
+        this.elementos = elementos;
+    }
+
+    /**
+     * @return the nomeElementoIdeal
+     */
+    public String getNomeElementoIdeal() {
+        return nomeElementoIdeal;
+    }
+
+    /**
+     * @param nomeElementoIdeal the nomeElementoIdeal to set
+     */
+    public void setNomeElementoIdeal(String nomeElementoIdeal) {
+        this.nomeElementoIdeal = nomeElementoIdeal;
+    }
+    
+    
 }
