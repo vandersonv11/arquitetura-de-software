@@ -14,6 +14,5 @@ import solo.Elementos;
 public class AnalisedeSolos {
 
     private Elementos elementos = new Elementos();
-    
-    
+    //comentando para verificacao
 }
