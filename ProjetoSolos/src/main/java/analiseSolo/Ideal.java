@@ -5,6 +5,7 @@
  */
 package analiseSolo;
 
+import java.util.ArrayList;
 import solo.Elementos;
 
 /**
@@ -13,36 +14,20 @@ import solo.Elementos;
  */
 public class Ideal extends Elementos{
 
-    private Elementos elementos = new Elementos();
-    //implementar
-    private String nomeElementoIdeal = "";
+    private ArrayList<Elementos> elementosIdeal = new ArrayList<Elementos>();
+
     /**
-     * @return the elementos
+     * @return the elementosIdeal
      */
-    public Elementos getElementos() {
-        return elementos;
+    public ArrayList<Elementos> getElementosIdeal() {
+        return elementosIdeal;
     }
 
     /**
-     * @param elementos the elementos to set
+     * @param elementosIdeal the elementosIdeal to set
      */
-    public void setElementos(Elementos elementos) {
-        this.elementos = elementos;
+    public void setElementosIdeal(ArrayList<Elementos> elementosIdeal) {
+        this.elementosIdeal = elementosIdeal;
     }
-
-    /**
-     * @return the nomeElementoIdeal
-     */
-    public String getNomeElementoIdeal() {
-        return nomeElementoIdeal;
-    }
-
-    /**
-     * @param nomeElementoIdeal the nomeElementoIdeal to set
-     */
-    public void setNomeElementoIdeal(String nomeElementoIdeal) {
-        this.nomeElementoIdeal = nomeElementoIdeal;
-    }
-    
     
 }
