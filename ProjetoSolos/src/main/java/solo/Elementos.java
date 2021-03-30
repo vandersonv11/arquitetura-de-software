@@ -12,8 +12,7 @@ package solo;
 public class Elementos {
 
     private String nomeElemento = "";
-    private int valornoSolo = 0;
-
+    private double valorElemento = 0;
     public String getNomeElemento() {
         return nomeElemento;
     }
@@ -23,16 +22,16 @@ public class Elementos {
     }
 
     /**
-     * @return the valornoSolo
+     * @return the valorElemento
      */
-    public int getValornoSolo() {
-        return valornoSolo;
+    public double getValorElemento() {
+        return valorElemento;
     }
 
     /**
-     * @param valornoSolo the valornoSolo to set
+     * @param valorElemento the valorElemento to set
      */
-    public void setValornoSolo(int valornoSolo) {
-        this.valornoSolo = valornoSolo;
+    public void setValorElemento(int valorElemento) {
+        this.valorElemento = valorElemento;
     }
 }

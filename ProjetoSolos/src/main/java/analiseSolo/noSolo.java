@@ -13,21 +13,9 @@ import solo.Elementos;
  * @author vande
  */
 public class noSolo {
-    private ArrayList <Elementos> elementosNoSolo = new ArrayList<Elementos>();
-
-    /**
-     * @return the elementosNoSolo
-     */
-    public ArrayList <Elementos> getElementosNoSolo() {
-        return elementosNoSolo;
-    }
-
-    /**
-     * @param elementosNoSolo the elementosNoSolo to set
-     */
-    public void setElementosNoSolo(ArrayList <Elementos> elementosNoSolo) {
-        this.elementosNoSolo = elementosNoSolo;
-    }
-
     
+    private Elementos elementoNoSolo;
+    private double valorElementoNoSolo = 0;
+    
+
 }
