@@ -13,14 +13,9 @@ import solo.Elementos;
  *
  * @author vande
  */
-public class AnaliseSoloController {
-    private Amostra amostraController = new Amostra();
-    private ArrayList<Ideal> idealController = new ArrayList<Ideal>();
-    private ArrayList<noSolo> nosoloController = new ArrayList<noSolo>();
-    
+public class AnaliseSoloController extends AnalisedeSolos{
+    private AnalisedeSolos analise = new AnalisedeSolos();
     private Elementos elemento = new Elementos();
     
-    public void setNosoloController(noSolo e) {
-        nosoloController.add(e);
-    }
+
 }
